@@ -69,7 +69,6 @@ const Myapp = () => {
         search("Palani")
     },[])
   return (
-    
     <div className='weather'>
         <h1 className='heading'>Weather App</h1>
         <div className="search_bar">
@@ -100,6 +99,7 @@ const Myapp = () => {
         </>:<></>}
 
     </div>
+    
   )
 }
 

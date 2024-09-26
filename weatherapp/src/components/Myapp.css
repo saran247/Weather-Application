@@ -1,7 +1,7 @@
 .weather{
     place-self: center;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgba(24, 2, 2, 0.589);
     /* background-image: linear-gradient(45deg, #2f4680, #500aef); */
     display: flex;
@@ -10,7 +10,6 @@
 }
 .heading{
     color: #fff;
-    /* text-shadow: 2px 2px cornsilk; */
     margin: 20px;
 }
 .search_bar{
@@ -38,7 +37,12 @@
     border-radius: 50%;
     background: #ebfffc;
     cursor: pointer;
+    transition:ease-in-out (0.8s);
 }
+.search_bar img:hover{
+    transform: scale(1.1);
+}
+
 .weather_icon{
     width: 150px;
     margin: 30px 0;
